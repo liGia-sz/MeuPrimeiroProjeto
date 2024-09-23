@@ -1,0 +1,84 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        void WriteTitle()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(new string('=', 50));
+            Console.WriteLine("PEDRA - PAPEL - TESOURA");
+            Console.WriteLine(new string('=', 50));
+            Console.ResetColor();
+        }
+
+        // Gera jogada do computador
+        Random aleatorio = new Random();
+        int seusPontos = 0;
+        int meusPontos = 0;
+
+        while (true)
+        {
+            WriteTitle();
+            Console.WriteLine("Vamos jogar! Escolha:\n (1) PEDRA\n (2) PAPEL\n (3) TESOURA");
+
+            string suaJogada;
+            while (true)
+            {
+                Console.Write($"Escolha:\n (1) PEDRA\n (2) PAPEL\n (3) TESOURA");
+                suaJogada = Console.ReadLine();
+                if (suaJogada == "1" || suaJogada == "2" || suaJogada == "3")
+                    break;
+                else
+                    Console.WriteLine("ENTRADA INVÁLIDA! TENTE NOVAMENTE.", ConsoleColor.Red);
+            }
+
+            int numeroAleatorio = aleatorio.Next(1, 4); // Gera um número entre 1 e 3
+            string jogadaComputador = numeroAleatorio.ToString(); // Converte para string
+
+            // Verifica o resultado
+            if (suaJogada == jogadaComputador)
+            {
+                Console.WriteLine($"EMPATE! {suaJogada} empata com {jogadaComputador}.", ConsoleColor.Yellow);
+            }
+            else if ((suaJogada == "1" && jogadaComputador == "2") || 
+                     (suaJogada == "2" && jogadaComputador == "3") || 
+                     (suaJogada == "3" && jogadaComputador == "1"))
+            {
+                meusPontos++;
+                Console.WriteLine($"VOCÊ PERDEU! {jogadaComputador} ganha de {suaJogada}.", ConsoleColor.Red);
+            }
+            else
+            {
+                seusPontos++;
+                Console.WriteLine($"VOCÊ GANHOU! {suaJogada} ganha de {jogadaComputador}.", ConsoleColor.Green);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine($"Você {seusPontos} - {meusPontos} Computador");
+            Console.WriteLine();
+
+            // Pergunta se o jogador quer jogar novamente
+            while (true)
+            {
+                Console.Write("Quer jogar novamente? (digite 1- sim ou 2- não): ");
+                string resposta = Console.ReadLine();
+
+                if (resposta == "1")
+                    break; // Joga novamente
+                else if (resposta == "2")
+                {
+                    WriteTitle();
+                    Console.WriteLine("Fim de jogo.");
+                    return; // Sai do programa
+                }
+                else
+                {
+                    Console.WriteLine("ENTRADA INVÁLIDA! TENTE NOVAMENTE.", ConsoleColor.Red);
+                }
+            }
+        }
+    }
+}
