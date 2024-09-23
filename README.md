@@ -8,7 +8,6 @@ O jogo de Pedra, Papel, Tesoura é um jogo clássico onde dois jogadores (ou um 
 - Pedra vence Tesoura
 - Tesoura vence Papel
 - Papel vence Pedra
-- 
 ##Como funciona?
 Ao iniciar o jogo, o computador escolhe aleatoriamente uma das três opções.
 O jogador deve escolher sua opção digitando:
@@ -26,7 +25,7 @@ Para construir o jogo, siga os passos abaixo:
 
 1. *Clone o repositório:*
 
-</sub> git clone https://github.com/duacarol/MeuPrimeiroProjeto.git
+< git clone https://github.com/duacarol/MeuPrimeiroProjeto.git/sub>
 
 2. *Navegue até a pasta do projeto:*
 
