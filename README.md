@@ -1,7 +1,7 @@
-# Meu Primeiro Projeto
+# 🕹️ Meu Primeiro Projeto
 Atividade desenvolvida do curso técnico em Informática para Internet do SENAI. O objetivo foi criar uma aplicação console em .NET do clássico jogo de Pedra, Papel, Tesoura.
 
-# Pedra Papel Tesoura
+# 🕹️ Pedra Papel Tesoura
 ## O que é?
 O jogo de Pedra, Papel, Tesoura é um jogo clássico onde dois jogadores (ou um jogador contra o computador) escolhem uma das três opções: Pedra, Papel ou Tesoura. As regras são simples:
 
@@ -10,21 +10,21 @@ O jogo de Pedra, Papel, Tesoura é um jogo clássico onde dois jogadores (ou um 
 ![README-1](https://github.com/user-attachments/assets/95800472-0388-4110-baee-cf8dbacdfa99)
 ![README-](https://github.com/user-attachments/assets/0355887f-5ae4-421e-9f2a-f8a3850fa32e)
 
-## Como funciona?
-Ao iniciar o jogo, o computador escolhe aleatoriamente uma das três opções.
-O jogador deve escolher sua opção digitando:
+## 🕹️ Como funciona?
 
-1 para Pedra
-  
-2 para Papel
+1️⃣ O **computador escolhe** aleatoriamente uma das três opções.  
+2️⃣ O **jogador escolhe** sua opção digitando:  
 
-3 para Tesoura
+   - `1` ✊ **Pedra**  
+   - `2` ✋ **Papel**  
+   - `3` ✌️ **Tesoura**  
 
-* O jogo determina o vencedor com base nas escolhas.
-* O placar é atualizado após cada rodada, mostrando a pontuação do jogador e do computador.
-* O jogador pode optar por jogar novamente ou encerrar o jogo.
+3️⃣ O jogo **determina o vencedor** com base nas escolhas.  
+4️⃣ O **placar é atualizado** após cada rodada, mostrando a pontuação do jogador e do computador.  
+5️⃣ O jogador pode **escolher jogar novamente** ou **encerrar o jogo**.  
 
-## Como construir o jogo?
+
+## 🕹️ Como construir o jogo?
 Para construir o jogo, siga os passos abaixo:
 
 1. *Clone o repositório:*
