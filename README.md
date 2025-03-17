@@ -8,8 +8,8 @@ O jogo de Pedra, Papel, Tesoura é um jogo clássico onde dois jogadores (ou um 
 ![README-3](https://github.com/user-attachments/assets/09cde419-a3a5-4f89-9baf-b15424b4f14e)
 ![README-2](https://github.com/user-attachments/assets/0f391c47-00a5-4c0f-b9ba-6dc75c5d432e)
 ![README-1](https://github.com/user-attachments/assets/95800472-0388-4110-baee-cf8dbacdfa99)
+![README-](https://github.com/user-attachments/assets/0355887f-5ae4-421e-9f2a-f8a3850fa32e)
 
-- Símbolos iguais dão empate
 ## Como funciona?
 Ao iniciar o jogo, o computador escolhe aleatoriamente uma das três opções.
 O jogador deve escolher sua opção digitando:
