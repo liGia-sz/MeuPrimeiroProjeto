@@ -7,7 +7,8 @@ O jogo de Pedra, Papel, Tesoura é um jogo clássico onde dois jogadores (ou um 
 
 - Pedra vence Tesoura
 - Tesoura vence Papel
-- Papel vence Pedra
+![PARA README-1](https://github.com/user-attachments/assets/e7d6d6b0-36bd-42ae-b172-b56b8a4b485a)
+
 - Símbolos iguais dão empate
 ## Como funciona?
 Ao iniciar o jogo, o computador escolhe aleatoriamente uma das três opções.
