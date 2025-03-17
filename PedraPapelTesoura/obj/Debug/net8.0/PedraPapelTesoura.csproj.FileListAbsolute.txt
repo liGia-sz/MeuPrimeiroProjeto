@@ -1,0 +1,15 @@
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.exe
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.deps.json
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.runtimeconfig.json
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.dll
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.pdb
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.AssemblyInfo.cs
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.sourcelink.json
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.dll
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\refint\PedraPapelTesoura.dll
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.pdb
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.genruntimeconfig.cache
+C:\Users\Alunos\Documents\LÍGIA (MANHÃ)\MeuPrimeiroProjeto\PedraPapelTesoura\obj\Debug\net8.0\ref\PedraPapelTesoura.dll

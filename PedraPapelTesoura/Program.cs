@@ -1,18 +1,28 @@
-using System;
+﻿using System;
 
 class Program
 {
     static void Main()
     {
         void WriteTitle()
-        {
-            Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(new string('=', 50));
-            Console.WriteLine("PEDRA - PAPEL - TESOURA");
-            Console.WriteLine(new string('=', 50));
-            Console.ResetColor();
-        }
+{
+    Console.Clear();
+    Console.ForegroundColor = ConsoleColor.Cyan;
+
+    // Texto a ser centralizado
+    string title = "  ✊ PEDRA - PAPEL - TESOURA ✌️";
+    
+    // Determina o tamanho do quadro com base no comprimento do texto
+    int largura = title.Length + 3; // 2 espaço extra de cada lado
+
+    Console.WriteLine("╔" + new string('═', largura) + "╗");
+    Console.WriteLine("║" + title + "   ║");
+    Console.WriteLine("╚" + new string('═', largura) + "╝");
+
+    Console.ResetColor();
+}
+
+
 
         // Gera jogada do computador
         Random aleatorio = new Random();
@@ -22,17 +32,19 @@ class Program
         while (true)
         {
             WriteTitle();
-            Console.WriteLine("Vamos jogar! Escolha:\n (1) PEDRA\n (2) PAPEL\n (3) TESOURA");
+            Console.WriteLine("🎉 Vamos jogar! 🎉");
 
             string suaJogada;
             while (true)
             {
-                Console.Write($"Escolha:\n (1) PEDRA\n (2) PAPEL\n (3) TESOURA");
+                Console.WriteLine($"Escolha:\n (1) PEDRA ✊\n (2) PAPEL ✋\n (3) TESOURA ✌️");
                 suaJogada = Console.ReadLine();
                 if (suaJogada == "1" || suaJogada == "2" || suaJogada == "3")
                     break;
                 else
-                    Console.WriteLine("ENTRADA INVÁLIDA! TENTE NOVAMENTE.", ConsoleColor.Red);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("🚫 ENTRADA INVÁLIDA! TENTE NOVAMENTE. 🚫");
+                    Console.ResetColor();
             }
 
             int numeroAleatorio = aleatorio.Next(1, 4); // Gera um número entre 1 e 3
@@ -41,19 +53,25 @@ class Program
             // Verifica o resultado
             if (suaJogada == jogadaComputador)
             {
-                Console.WriteLine($"EMPATE! {suaJogada} empata com {jogadaComputador}.", ConsoleColor.Yellow);
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"😬 EMPATE! {suaJogada} empata com {jogadaComputador}.");
+                Console.ResetColor();
             }
             else if ((suaJogada == "1" && jogadaComputador == "2") || 
                      (suaJogada == "2" && jogadaComputador == "3") || 
                      (suaJogada == "3" && jogadaComputador == "1"))
             {
                 meusPontos++;
-                Console.WriteLine($"VOCÊ PERDEU! {jogadaComputador} ganha de {suaJogada}.", ConsoleColor.Red);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"😶 VOCÊ PERDEU! {jogadaComputador} ganha de {suaJogada}.");
+                Console.ResetColor();
             }
             else
             {
                 seusPontos++;
-                Console.WriteLine($"VOCÊ GANHOU! {suaJogada} ganha de {jogadaComputador}.", ConsoleColor.Green);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"🥳 VOCÊ GANHOU! {suaJogada} ganha de {jogadaComputador}. 🥳");
+                Console.ResetColor();
             }
 
             Console.WriteLine();
@@ -71,14 +89,17 @@ class Program
                 else if (resposta == "2")
                 {
                     WriteTitle();
-                    Console.WriteLine("Fim de jogo.");
+                    Console.WriteLine("👋 Fim de jogo...");
                     return; // Sai do programa
                 }
                 else
                 {
-                    Console.WriteLine("ENTRADA INVÁLIDA! TENTE NOVAMENTE.", ConsoleColor.Red);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("🚫 ENTRADA INVÁLIDA! TENTE NOVAMENTE. 🚫");
+                    Console.ResetColor();
                 }
             }
         }
     }
 }
+
