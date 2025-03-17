@@ -5,9 +5,9 @@ Atividade desenvolvida do curso técnico em Informática para Internet do SENAI.
 ## O que é?
 O jogo de Pedra, Papel, Tesoura é um jogo clássico onde dois jogadores (ou um jogador contra o computador) escolhem uma das três opções: Pedra, Papel ou Tesoura. As regras são simples:
 
-- Pedra vence Tesoura
-- Tesoura vence Papel
-![PARA README-1](https://github.com/user-attachments/assets/e7d6d6b0-36bd-42ae-b172-b56b8a4b485a)
+![README-3](https://github.com/user-attachments/assets/09cde419-a3a5-4f89-9baf-b15424b4f14e)
+![README-2](https://github.com/user-attachments/assets/0f391c47-00a5-4c0f-b9ba-6dc75c5d432e)
+![README-1](https://github.com/user-attachments/assets/95800472-0388-4110-baee-cf8dbacdfa99)
 
 - Símbolos iguais dão empate
 ## Como funciona?
